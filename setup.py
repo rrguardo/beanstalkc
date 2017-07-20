@@ -19,7 +19,7 @@ beanstalkc_thl is a simple beanstalkd client library for Python. `beanstalkc_thl
 <https://github.com/rrguardo/beanstalkc>`_ is a fast, distributed, in-memory
 workqueue service.
 ''',
-    url='https://github.com/rrguardo/beanstalkc',
+    url='https://github.com/rrguardo/beanstalkc_thl',
     license='Apache License, Version 2.0',
     classifiers=[
         'Development Status :: 4 - Beta',
