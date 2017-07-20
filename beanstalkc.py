@@ -4,6 +4,7 @@
 import logging
 import socket
 import sys
+import threading
 
 
 __license__ = '''
@@ -46,7 +47,7 @@ class SocketError(BeanstalkcException):
             raise SocketError(err)
 
 
-class Connection(object):
+class Connection(threading.local):
     def __init__(self, host=DEFAULT_HOST, port=DEFAULT_PORT, parse_yaml=True,
                  connect_timeout=socket.getdefaulttimeout()):
         if parse_yaml is True:
