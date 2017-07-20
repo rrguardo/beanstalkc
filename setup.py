@@ -7,16 +7,16 @@ from beanstalkc import __version__ as src_version
 PKG_VERSION = os.environ.get('BEANSTALKC_PKG_VERSION', src_version)
 
 setup(
-    name='beanstalkc_thlocal',
+    name='beanstalkc_thl',
     version=PKG_VERSION,
-    py_modules=['beanstalkc_thlocal'],
+    py_modules=['beanstalkc_thl'],
 
     author='Andreas Bolka',
     author_email='a@bolka.at',
     description='A simple beanstalkd client library',
     long_description='''
-beanstalkc is a simple beanstalkd client library for Python. `beanstalkd
-<http://kr.github.com/beanstalkd/>`_ is a fast, distributed, in-memory
+beanstalkc_thl is a simple beanstalkd client library for Python. `beanstalkc_thl
+<https://github.com/rrguardo/beanstalkc>`_ is a fast, distributed, in-memory
 workqueue service.
 ''',
     url='https://github.com/rrguardo/beanstalkc',
